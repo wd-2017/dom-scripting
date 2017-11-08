@@ -28,6 +28,10 @@ body {
   padding: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
+.js body {
+  border-top: 10px solid red;
+}
+
 
 h1,
 h2,
