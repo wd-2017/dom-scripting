@@ -133,18 +133,16 @@ video.portrait {
   transition: background 3s;
 }
 
-.js body {
-  border-top: 3em solid red;
-}
-
 .js abbr[title] {
   cursor: pointer;
+  background-color: yellow;
+  text-decoration: none;
 }
 
-abbr[title].expanded {
+
+abbr[title].is-expanded {
   cursor: unset;
-  text-decoration: none;
-  border-bottom: 0;
+  background-color: inherit;
 }
 
 .hide {
